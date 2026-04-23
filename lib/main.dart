@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: const Text(
-                    'DIREKTORAT POLITEKNIK NEGERI INDRAMAYU',
+                    'Warung Jati Sebelah Rektorat Polindra',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
@@ -74,22 +74,23 @@ class MyApp extends StatelessWidget {
       ],
     );
 
-    // TEXT SECTION
-    Widget textSection = Container(
-      padding: const EdgeInsets.all(32),
-      child: const Text(
-          'Gedung Rektorat Politeknik Negeri Indramayu (Polindra) merupakan pusat '
-          'kegiatan administrasi dan manajemen kampus. Gedung ini menjadi tempat '
-          'berlangsungnya berbagai aktivitas penting seperti pelayanan akademik, '
-          'pengelolaan data mahasiswa, serta koordinasi antar pimpinan dan staf. '
-          'Dengan desain yang modern dan lingkungan yang tertata rapi, gedung ini '
-          'memberikan suasana yang nyaman bagi mahasiswa maupun pengunjung. '
-          'Sebagai pusat operasional kampus, Gedung Rektorat Polindra memiliki '
-          'peran penting dalam mendukung kelancaran seluruh kegiatan akademik '
-          'dan non-akademik di lingkungan kampus.',
-        softWrap: true,
-      ),
-    );
+  // TEXT SECTION
+Widget textSection = Container(
+  padding: const EdgeInsets.all(32),
+  child: const Text(
+    'Warung Jati yang berada di sebelah Gedung Rektorat Politeknik Negeri '
+    'Indramayu (Polindra) merupakan salah satu area favorit mahasiswa untuk '
+    'beristirahat dan berkumpul. Tempat ini dikelilingi oleh pepohonan jati '
+    'yang rindang sehingga menciptakan suasana yang sejuk dan nyaman. '
+    'Tersedia berbagai tempat duduk seperti meja dan bangku kayu yang '
+    'digunakan pengunjung untuk makan, berdiskusi, maupun sekadar bersantai. '
+    'Di area ini juga terdapat warung yang menyediakan makanan dan minuman, '
+    'menjadikannya sebagai pusat aktivitas santai di lingkungan kampus. '
+    'Dengan suasana alami dan terbuka, Warung Jati menjadi tempat yang cocok '
+    'bagi mahasiswa untuk melepas penat setelah kegiatan perkuliahan.',
+    softWrap: true,
+  ),
+);
 
     // MAIN APP
     return MaterialApp(
@@ -101,7 +102,7 @@ class MyApp extends StatelessWidget {
         body: ListView(
           children: [
             Image.asset(
-              'images/fotorektorat.png', // pastikan ada di folder images
+              'images/fotorestu.jpeg', // pastikan ada di folder images
               width: double.infinity,
               fit: BoxFit.cover,
             ),
